@@ -1,0 +1,68 @@
+body
+{
+    background-image: url("C:\Users\Administrator\Desktop\estructura\assets\img");
+}
+
+header, footer, .main
+{
+    background-color:azure;
+    width: 90%;
+    max-width: 1000px;
+    margin:20px auto;
+}
+
+header nav
+{
+    background-color:cadetblue;
+    overflow: hidden;
+}
+
+header nav ul
+{
+    list-style: none;
+}
+
+header nav ul li
+{
+    float: left;
+}
+
+header nav ul li a
+{
+    padding: 10px 20px;
+    display: block;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.main .article
+{
+  width: 68.5%;
+  float: left;
+  margin-right: 1.5%;
+  
+}
+
+.main .article article
+{
+    background-color: darkorange;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+aside
+{
+    width: 30%;
+    background-color:tomato;
+    float: left;
+}
+
+footer
+{
+    background-color: black;
+    color: aliceblue;
+    clear: both;
+    padding: 10px 0px; 
+    text-align: center;
+    
+}
